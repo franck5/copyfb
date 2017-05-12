@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mon facebook</title>
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="grey lighten-3">
+<nav>
+    <div class="nav-wrapper indigo darken-1">
+      <a href="#" class="brand-logo">Facebook</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><label for="email">Adresse e-mail ou mobile : </label></li>
+        <li><input type="email" name="email" id="email"/></li>
+        <li><label for="pass">Mot de passe : </label></li>
+        <li><input type="password" name="pass" id="pass"/></li>
+        <li><a class="waves-effect waves-light btn indigo darken-2">Connexion</a></li>
+        
+      </ul>
+    </div>
+</nav>
+
+<div class="row">
+<div class="col s6"><h6>Avec Facebook, partagez et restez en contact avec votre entourage.</h6>
+<img src="https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/pyNVUg5EM0j.png">
+</div>
+    <form method="POST" action="membre" class="col s6"/>
+    	<div class="row">
+      		<h4>Inscription</h4>
+      		<h6>C’est gratuit (et ça le restera toujours)</h6>
+        	<div class="input-field col s6">
+          		<input class="white" placeholder="Prénom" type="text" name="last_name" required="true">
+        	</div>
+
+        	<div class="input-field col s6">
+          		<input class="white" placeholder="Nom de famille" type="text" name="name" required="true">
+        	</div>
+      </div>
+      
+     	<div class="row">
+        	<div class="input-field col s12">
+          		<input class="white" placeholder="Numéro de mobile ou e-mail" type="text" name="email" required="true">
+        	</div>
+     	</div>
+      	<div class="row">
+        	<div class="input-field col s12">
+          		<input class="white" placeholder="Nouveau mot de passe" type="password" name="pass" required="true">
+        	</div>
+      	</div>
+      	<div class="row">
+        	<div class="input-field col s12">
+      			<input class="white" type="date" name="date" required="true">
+      		</div>
+      	</div>
+      	<div class="row">
+      		<div class="input-field col s12">
+	      		<p>
+                    <input type="radio" name="sexe" value="femme" id="femme" required="true" />
+                     <label for="femme">Femme</label>
+                    <input type="radio" name="sexe" value="homme" id="homme"  /> 
+                    <label for="homme">Homme</label>
+               	</p>
+    		</div>
+    	</div>
+    	<div class="row">
+        	<div class="input-field col s12">
+    			<p>En cliquant sur Inscription, vous acceptez nos Conditions et indiquez que vous avez lu notre Politique d’utilisation des données, y compris notre Utilisation des cookies. Vous pourrez recevoir des notifications par texto de la part de Facebook et pouvez vous désabonner à tout moment.</p>
+    		</div>
+    	</div>
+    	<div class="row">
+        <div class="input-field col s12">
+        <input type="submit" value="Inscription" class="waves-effect waves-light btn green darken-1" />
+        </div>
+        </div>
+    </form>
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

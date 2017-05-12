@@ -1,0 +1,23 @@
+{
+  "name": "exofb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "hapi": "^16.1.1",
+    "inert": "^4.2.0",
+    "jade": "^1.11.0",
+    "jquery": "^3.2.1",
+    "nodefs": "0.0.2",
+    "nodemon": "^1.11.0",
+    "vision": "^4.1.1"
+  }
+}
